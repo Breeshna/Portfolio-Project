@@ -1,0 +1,172 @@
+
+body {
+    font-family: "Open Sans", sans-serif; 
+    background: linear-gradient(#210551, #9216cb);
+}
+
+/* line 55, ../sass/styles.scss */
+#game-container {
+    float: left;
+    position: absolute;
+    text-align: center;
+    margin: 2em auto;
+    width: 100vh;
+    height: 50vh;
+    top: 90px;
+    left: 500px;
+}
+
+/* line 62, ../sass/styles.scss */
+#game-container p {
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 3em;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+/* line 69, ../sass/styles.scss */
+#game-container p span {
+    font-weight: 300;
+}
+
+/* line 72, ../sass/styles.scss */
+#game-container p#info {
+    display: block;
+    text-align: center;
+    font-size: 2em !important;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+/* line 80, ../sass/styles.scss */
+#scrambled-word {
+    font-size: 3em !important;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 48px;
+    margin-bottom: 1em !important;
+}
+
+/* line 89, ../sass/styles.scss */
+#scrambled-word p {
+    display: block;
+    width: 100%;
+}
+
+/* line 94, ../sass/styles.scss */
+#user-guess {
+    display: block;
+    width: 20em;
+    height: 3em;
+    padding-left: 1em;
+    margin: 0 auto 1.25em;
+    border: 1px solid #000;
+    outline-color: #e18a07;
+    font-size: 1.1em;
+}
+
+/* line 104, ../sass/styles.scss */
+small {
+    font-size: 0.8em;
+}
+
+/* line 107, ../sass/styles.scss */
+.lead {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/* line 111, ../sass/styles.scss */
+.correct,
+.incorrect {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* line 116, ../sass/styles.scss */
+.correct {
+    color: green;
+    display: block;
+}
+
+/* line 121, ../sass/styles.scss */
+.incorrect {
+    color: red;
+    display: block;
+}
+
+/* line 126, ../sass/styles.scss */
+.hidden {
+    visibility: hidden;
+}
+
+/* line 129, ../sass/styles.scss */
+button {
+    cursor: pointer;
+    width: 12em;
+    height: 3em;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+/* line 138, ../sass/styles.scss */
+#submit,
+#play-btn {
+    background: #fff;
+    border: 2px solid #e18a07;
+}
+
+/* line 143, ../sass/styles.scss */
+#submit:hover,
+#play-btn:hover {
+    background: #e18a07;
+    color: #fff;
+    transition: 0.2s background;
+}
+
+/* line 150, ../sass/styles.scss */
+#reset-btn {
+    background: #fff;
+    border: none;
+    box-shadow: 1px 1px 1px #999;
+}
+
+/* line 155, ../sass/styles.scss */
+#reset-btn:hover {
+    box-shadow: 1px 1px 1px #000;
+    transition: 0.2s box-shadow;
+}
+
+/* line 161, ../sass/styles.scss */
+button:active {
+    position: relative;
+    top: -100px;
+}
+
+.msBreeLogo {
+    float: right;
+    position: relative;
+    width: 800px;
+    top: -100px;
+    left: 800px;
+}
+
+.buttonYoutube {
+    float: left;
+    position: absolute;
+    width: 500px;
+    top: -130px;
+    left: 850px;
+}
+
+.stars {
+    float: left;
+    position: absolute;
+    width: 400px;
+    top: -130px;
+    left: 800px;
+}

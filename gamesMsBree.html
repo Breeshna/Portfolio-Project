@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/msBree.css" />
+    <link rel="stylesheet" href="css/msBreeGame.css" />
 
     <title>Learning With Ms.Bree</title>
 </head>
@@ -31,7 +31,9 @@
                     </a>
                 </div>
                 <div class="col">
-                    <img src="img/classesButtonYellow.png" class="buttonPink img-fluid">
+                    <a  href="classesMsBree.html">
+                        <img src="img/2.png" class="buttonPink img-fluid">
+                    </a>
                 </div>
                 <div class="col">
                     <a  href="videosMsBree.html">
@@ -44,43 +46,42 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a  href="gamesMsBree.html">
-                        <img src="img/5.png" class="buttonPink img-fluid">
-                    </a>
+                    <img src="img/gamesButtonYellow.png" class="buttonPink img-fluid">
                 </div>  
                 <div class="col">
-                    <a  href="msBree.html">
+                    <a href="msBree.html">
                         <img src="img/10.png" class="buttonPink img-fluid">
                     </a>
                 </div>
-            </div>        
-        </header>
-        <div class="col col-sm-3 col-md-2 align-self-center">
-            <div class="row">
-                <a href="https://outschool.com/classes/first-grade-fun-reading-writing-success-hQVM1Juf" target="_blank">
-                    <img src="img/classesBackground.png" class="classImage">
-                </a>
-                <a  href="https://outschool.com/classes/first-grade-fun-reading-writing-success-hQVM1Juf" target="_blank">
-                    <img src="img/orangeChipmunk.png" class="aboutText orangeChipmunk">
-                    <img class="msBreeLogo pull-right"  id="msBreeLogo" src="img/msBree.png"/>
-                </a>
-            </div>
-        </div>
-            <div class="row">
-                <div class="col align-self-center">
-                    <a  href="https://www.youtube.com/@MsBreeOutschool/videos" target="_blank">
-                        <img src="img/19.png" class="buttonYoutube img-fluid"> 
-                    </a>
+            </div>  
+        </div>      
+    </header>
+                <div class="col col-sm-3 col-md-2 align-self-center">
+                    <div class="row">
+                            <div id="rules">
+                                <button id="play-btn">Play</button>
+                                <div id="game-container" class="hidden">
+                                <p>Level: <span id="level">1</span></p>
+                                <p>Score: <span id="score">0</span></p>
+                                <p>Attempts: <span id="attempts">0</span></p>
+                                <p id="info"></p>
+                            </div>
+                            <div id="guess-container">
+                                <p id="scrambled-word"></p>
+                            </div>
+                            <div id="guess-container">
+                                <p id="scrambled-word"></p>
+                                <input id="user-guess" type="text" placeholder="Enter your guess">
+                                <button id="submit">Submit</button>
+                                <button id="reset-btn">New</button>
+                    </div>
                 </div>
-                <div class="col">
-                    <img src="img/17.png" class="stars img-fluid">
-                </div>
-            </div>
 
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/msBree.js"></script>
 
 </body>
 

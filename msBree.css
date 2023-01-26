@@ -1,0 +1,138 @@
+
+body {
+    font-family: "Open Sans", sans-serif; 
+    background: linear-gradient(#210551, #9216cb);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.buttonPink {
+    padding: 10px 0;
+    width: 1000px;
+    height: 140px;
+}
+
+.myBigLogo {
+    float: left;
+    position: absolute;
+    width: 950px;
+    top: -60px;
+    left: 300px;
+}
+
+.msBreeLogo {
+    float: right;
+    position: relative;
+    width: 800px;
+    top: 0px;
+    left: 850px;
+}
+
+.aboutInfo {
+    float: left;
+    position: absolute;
+    width: 600px;
+    top: -10px;
+    left: 500px;
+}
+
+.aboutText {
+    float: left;
+    position: absolute;
+    width: 400px;
+    top: 280px;
+    left: 325px;
+}
+
+.stars {
+    float: left;
+    position: absolute;
+    width: 400px;
+    top: -130px;
+    left: -90px;
+}
+
+.buttonYoutube {
+    float: left;
+    position: absolute;
+    width: 400px;
+    top: -130px;
+    left: 590px;
+}
+
+.buttonInstagram {
+    float: left;
+    position: absolute;
+    width: 500px;
+    top: -190px;
+    left: -200px;
+}
+
+.videosImage {
+    float: left;
+    position: absolute;
+    width: 1000px;
+    top: 90px;
+    left: 500px;
+    border-radius: 70px;
+}
+
+.greenSlug {
+    float: left;
+    position: absolute;
+    width: 400px;
+    top: -60px;
+    left: 340px;
+    perspective: 1000px;
+}
+
+.buttonYoutubeLarge {
+    float: left;
+    position: absolute;
+    width: 1000px;
+    top: 280px;
+    left: 750px;
+}
+
+.classImage {
+    float: left;
+    position: absolute;
+    width: 1000px;
+    top: 90px;
+    left: 500px;
+    border-radius: 70px;
+}
+
+.orangeChipmunk {
+    float: left;
+    position: absolute;
+    width: 330px;
+    top: -60px;
+    left: 350px;
+    
+}
+
+.worksheetsImage {
+    float: left;
+    position: absolute;
+    width: 1000px;
+    top: 90px;
+    left: 500px;
+    border-radius: 70px;
+}
+
+.pinkSlug {
+    float: left;
+    position: absolute;
+    width: 710px;
+    top: 150px;
+    left: 780px;
+    perspective: 1000px;
+    transform: rotateY(200deg);
+    
+}
+
