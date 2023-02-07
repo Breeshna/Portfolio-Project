@@ -1,138 +1,204 @@
-
 body {
     font-family: "Open Sans", sans-serif; 
     background: linear-gradient(#210551, #9216cb);
 }
 
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+.buttonPink {
+    width: 120%;
+    height: 100%;
 }
 
-.buttonPink {
-    padding: 10px 0;
-    width: 1000px;
-    height: 140px;
+.smallLogo {
+    width: 125%;
+    height: 100%;
+    margin-top:5%;
 }
 
 .myBigLogo {
-    float: left;
     position: absolute;
-    width: 950px;
-    top: -60px;
-    left: 300px;
+    width: 50%;
+    top: -3%;
+    left: 20%;
 }
 
 .msBreeLogo {
-    float: right;
     position: relative;
-    width: 800px;
-    top: 0px;
-    left: 850px;
+    width: 40%;
+    left: 45%;
 }
 
 .aboutInfo {
-    float: left;
     position: absolute;
-    width: 600px;
-    top: -10px;
-    left: 500px;
+    width: 32%;
+    top: 8%;
+    left: 25%;
 }
 
 .aboutText {
-    float: left;
     position: absolute;
-    width: 400px;
-    top: 280px;
-    left: 325px;
+    width: 100%;
+    top: 100%;
+    left: 100%;
 }
 
 .stars {
-    float: left;
     position: absolute;
-    width: 400px;
-    top: -130px;
-    left: -90px;
+    width: 50%;
+    left: -20%;
+    margin-top:-15%;
 }
 
 .buttonYoutube {
     float: left;
     position: absolute;
-    width: 400px;
-    top: -130px;
-    left: 590px;
-}
-
-.buttonInstagram {
-    float: left;
-    position: absolute;
-    width: 500px;
-    top: -190px;
-    left: -200px;
+    width: 50%;
+    top: 100%;
+    left: 50%;
+    margin-top:-15%;
 }
 
 .videosImage {
-    float: left;
-    position: absolute;
-    width: 1000px;
-    top: 90px;
-    left: 500px;
-    border-radius: 70px;
+    position: relative;
+    width: 95%;
+    top: 7%;
+    left: 35%;
+    border-radius: 10%;
 }
 
 .greenSlug {
     float: left;
     position: absolute;
-    width: 400px;
-    top: -60px;
-    left: 340px;
-    perspective: 1000px;
+    width: 20%;
+    top: -5%;
+    left: 20%;
 }
 
 .buttonYoutubeLarge {
     float: left;
     position: absolute;
-    width: 1000px;
-    top: 280px;
-    left: 750px;
+    width: 20%;
+    top: 42%;
+    left: 40%;
 }
 
 .classImage {
-    float: left;
-    position: absolute;
-    width: 1000px;
-    top: 90px;
-    left: 500px;
-    border-radius: 70px;
+    position: relative;
+    width: 75%;
+    top: 7%;
+    left: 30%;
+    border-radius: 10%;
 }
 
 .orangeChipmunk {
     float: left;
     position: absolute;
-    width: 330px;
-    top: -60px;
-    left: 350px;
+    width: 18%;
+    top: -5%;
+    left: 17%;
     
 }
 
 .worksheetsImage {
     float: left;
-    position: absolute;
-    width: 1000px;
-    top: 90px;
-    left: 500px;
-    border-radius: 70px;
+    position: relative;
+    width: 90%;
+    top: 7%;
+    left: 40%;
+    border-radius: 10%;
+    margin-bottom: 10%;
 }
 
 .pinkSlug {
     float: left;
     position: absolute;
-    width: 710px;
-    top: 150px;
-    left: 780px;
-    perspective: 1000px;
+    width: 30%;
+    top: 45%;
+    left: 55%;
+    perspective: 100%;
     transform: rotateY(200deg);
     
 }
 
+.greenBackground {
+    float: left;
+    position: absolute;
+    width: 60%;
+    top: 7%;
+    left: 25%;
+    border-radius: 10%;
+}
+
+.click {
+    position: relative;
+    width: 25%;
+    top: -45%;
+    left: 48%;
+}
+
+.clickTwo {
+    position: absolute;
+    width: 25%;
+    top: 15%;
+    left: 38%;
+}
+
+.titleOne {
+    float: left;
+    position: absolute;
+    width: 17%;
+    top: 10%;
+    left: 45%;
+}
+
+.titleTwo {
+    float: left;
+    position: absolute;
+    width: 17%;
+    top: 5%;
+    left: 45%;
+}
+
+.titleThree {
+    float: left;
+    position: absolute;
+    width: 14%;
+    top: 5%;
+    left: 49%;
+}
+
+.crystalBall {
+    float: center;
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    margin-top: 2%;
+}
+
+.crystalBall:hover {
+    display: none;
+}
+
+.crystalBallText {
+    float: center;
+    position: relative;
+    width: 40%;
+    left: 30%;
+    margin-top: 2%;
+}
+
+.msBreeLogoHome {
+    float: right;
+    position: relative;
+    width: 69%;
+    left: 45%;
+}
+
+.video {
+    position: relative;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    top: 50%;
+    left: 25%;
+    border-radius: 10%;
+}
